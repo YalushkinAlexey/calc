@@ -1,11 +1,3 @@
-
-from re import X
-
-
-a = 0
-b = 0
-result = 0
-
 def init(x, y):
     global a
     global b
@@ -18,8 +10,8 @@ def sum():
 def sub():
     return a - b
 
-def dev():
+def div():
     return a / b
 
-def sub():
+def prod():
     return a * b 
